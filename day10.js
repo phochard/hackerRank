@@ -23,10 +23,10 @@ function readLine() {
 }
 
 
-
 function main() {
     const n = parseInt(readLine(), 10);
 
+    // answer :
     const binaryNumber = n.toString(2).split(0);
 
     const countArrayLength = binaryNumber.map(number => number.length);
